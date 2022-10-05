@@ -1,0 +1,151 @@
+/* Write some CSS below */
+body {
+ font-family: 'Arial', sans-serif;
+  color: transparent;
+  font-size: 10px;
+  margin: 20px;
+}
+
+h1 {
+  font-family: 'Gemunu Libre', sans-serif;
+  color: orangered;
+  font-size: 25px;
+  background-color: 30px;
+}
+h2 {
+  font-family: 'Gemunu Libre', sans-serif;
+  color: chocolate;
+  font size: 200px;
+  text-align: center;
+} 
+
+h3 {
+ font-family: 'Gemunu Libre', sans-serif;
+  color: blue;
+  margin: 30px;
+  font-size: 40px;
+  font-weight: 400PX;
+}
+p {
+ font font-family:'cambria' ;
+color: limegreen;
+font-size: 20px;
+
+}
+a {font-family: 'Source Sans Pro', sans-serif;
+color: violet;
+}
+a:hover {
+  color: orangered;
+}
+
+.https{
+	background-color: skyblue;
+	text-align: center;
+}
+.card{
+	background-color:black;
+	background-position: center;
+}
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+
+}
+.container {
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.banner {
+  background-image: url('images/background.png');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: black;
+  font-size: 100px;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.btn-blue {
+  background-color: #000000;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-blue:hover {
+  background-color: #FF7E00;
+  color: white;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding: 24px;
+  margin: 8px;
+  flex-grow: 1;
+}
+
+.card-white:hover {
+  background-color: #FF7E00;
+  color: white;
+}
+
+.card-white img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.footer {
+  background: #000000;
+  color: white;
+  padding: 10px 0px;
+}
+
+.cards {
+  display: grid;
+}
+
+.pro{
+	background-color: darkred;
+	padding: 15px;
+	text-align: center;
+}
+.en{
+font-size: 30px;
+}
+.class{
+	font-size: 30px;
+}
+.com{
+	font-size: 30px;
+}
+@media (min-width: 1000px) {
+  .container {
+    width: 900px;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
